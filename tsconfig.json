@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./build",
+        "rootDir": ".",
+        "jsx": "react",
+        "noImplicitUseStrict": true,
+        "declaration": true,
+        "stripInternal": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}

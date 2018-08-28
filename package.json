@@ -1,0 +1,28 @@
+{
+  "name": "flowview",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "tslint": "tslint --project ./tsconfig.json"
+  },
+  "author": "koki.hatada@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^7.0.69",
+    "@types/react": "^16.2.0",
+    "@types/react-dom": "^16.0.0",
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.5.0",
+    "typescript": "~2.8.0",
+    "webpack": "^3.11.0"
+  }
+}
